@@ -1,0 +1,592 @@
+HTML=================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuzaMaker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Start of Header -->
+    <header>
+        <section id="greeting">
+            <h1>fix this part</h1>
+            <h2>Smooth Jazz</h2>
+                <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+        </section>
+        <section id="nav">
+            <nav>
+                <ul>
+                    <li id="title"><a href="#">MuzakMaker</a></li>
+                    <li><a href="#">Trending Songs</a></li>
+                    <li><a href="#">Your playlists</a></li>
+                    <li><a href="#">Curated Playlists</a></li>
+                    <li><a href="#"><img src="images\dukesilver.png" alt="parks and rec guy"></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <!-- END OF HEADER -->
+
+    <main>
+        <section id="trending"> <!-- start of TRENDING SECTION----------------------------------------------------------------->
+            
+            <h2>Trending Songs</h2>
+            
+            <div class="scroll"> <!-- start of SCROLL CLASS---------------------------------->
+                
+                <section> <!--ALOMA START-->
+                    <div>
+                        <h3>Aloma</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Cali</dd>
+                        </dl>
+                    </div>
+                    <img src="images/aloma-cover.png" alt="pigeon">
+                    <audio controls>
+                        <source src="audio/aloma.mp3">
+                    </audio>
+                </section> <!--ALOMA END==-->
+
+                <section> <!--MY ROAD START-->
+                    <div>
+                        <h3>My Road</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Nesterouk</dd>
+                        </dl>
+                    </div>
+                    <img src="images/my-road-cover.png" alt="long roads">
+                    <audio controls>
+                        <source src="audio/my-road.mp3">
+                    </audio> 
+                </section> <!--MY ROAD End-->
+
+                <section> <!--Papaya START-->
+                    <div>
+                        <h3>Papaya</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Dredstudio</dd>
+                        </dl>
+                    </div>
+                    <img src="images/papaya-cover.png" alt="ripe papaya">
+                    <audio controls>
+                        <source src="audio/papaya.mp3">
+                    </audio>
+                </section> <!--PAPAYA END-->
+
+                <section> <!--SMOOTHIES START-->
+                    <div>
+                        <h3>Smoothies</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Black Rhomb</dd>
+                        </dl>
+                    </div>
+                    <img src="images/smoothies-cover.png" alt="blender smoothie">
+                    <audio controls>
+                        <source src="audio/smoothies.mp3">
+                    </audio>
+                </section> <!--SMOOTHIES End-->
+
+                <section> <!--SUCCESSFUL PERFORMANCE START-->
+                    <div>
+                        <h3>Successful Performance</h3>
+                        <dl>
+                            <dt>Artist </dt>
+                            <dd>Ricky Bombino</dd>
+                        </dl>
+                    </div>
+                    <img src="images/successful-performance-cover.png" alt="happy man">
+                    <audio controls>
+                        <source src="audio/successful-performance.mp3">
+                    </audio>
+                </section> <!--SUCCESSFUL PERFORMANCE  END-->
+            </div>
+
+            <!-- More trending button -->
+            <a href="#">More trending</a>
+        
+        </section> <!--END OF TRENDING SECTION------------------------------------------------------------------------------>
+
+        <section id ="playlists"> <!-- start of Personal PLAYLIST SECTION----------------------------------------------------------------->
+            
+            <h2>Your Playlists</h2>
+            
+            <div class = "scroll2"> <!--START OF SCROLL CLASS------------------------------------------->
+                <section> <!--best of 2020-->
+                    <div>
+                        <img src="images/best-of-2020-cover.png" alt="2020s">
+                        <h3>Best of 2020</h3>
+                        <p>The music that got you through the lock down.</p>
+                    </div>
+                </section>
+    
+                <section> <!--Pumpkin spice -->
+                    <div>
+                        <img src="images/pumpkin-spice-cover.png" alt="latte">
+                        <h3>Pumpkin Spice</h3>
+                        <p>Creamy and spicy, just like your favorite autumnal latte.</p>
+                    </div>
+                </section>
+    
+                <section> <!-- Quiet Storms -->
+                    <div>
+                        <img src="images/quiet-storm-cover.png" alt="rainy cloud">
+                        <h3>Quiet Storm</h3>
+                        <p>Slow tempos and relaxed rhythms. </p>
+                    </div>
+                </section>
+    
+                <section> <!--smooth jazz-->
+                    <div>
+                        <img src="images/smooth-jazz-cover.png" alt="old man">
+                        <h3>Smooth Jazz</h3>
+                        <p>The pioneers of smooth jazz</p>
+                    </div>
+                </section>
+    
+                <section> <!--smooth study-->
+                    <div>
+                        <img src="images/smooth-study-cover.png" alt="someone on a laptop">
+                        <h3>Smooth Study</h3>
+                        <p>Background music to keep you going while you study.</p>
+                    </div>
+                </section>
+            </div> <!--END OF SCROLL CLASS---------------------------------------------------------------->
+            <section id="button">
+                <!--more playlists button-->
+                <a href="#">All your playlists</a>
+            </section>
+
+        </section>     <!------------------------------ END of Personal PLAYLIST SECTION----------------------------------------------------------------->
+
+        <section id="curated"> <!-- start of CURATED PLAYLIST SECTION----------------------------------------------------------------->
+            
+            <h2>Curated Playlists</h2>
+
+           <div class ="scroll3">
+                <section> <!--Boozy brunch-->
+                    <div>
+                        <img src="images/boozy-brunch-cover.png" alt="drinks">
+                        <h3>Boozy Brunch</h3>
+                        <p>Light up the afternoon with these energetic hits. </p>
+                    </div>
+                </section>
+            
+                <section> <!--dinner party-->
+                    <div>
+                        <img src="images/dinner-party-cover.png" alt="dinner">
+                        <h3>Dinner Party</h3>
+                        <p>Background music to give your party life, but allow your guests to chat.</p>
+                    </div>
+                </section>
+                
+                <section> <!--mellow covers-->
+                    <div>
+                        <img src="images/mellow-cover.png" alt="trees">
+                        <h3>Mellow</h3>
+                        <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
+                    </div>
+                </section>
+            
+                <section> <!--jazz chill cover-->
+                    <div>
+                        <img src="images/jazz-chill-cover.png" alt="rose petal">
+                        <h3>Jazz and Chill</h3>
+                        <p>Set the mood with these silky sounds.</p>
+                    </div>
+                </section>
+            
+                <section> <!--smooth saxophone-->
+                    <div>
+                        <img src="images/smooth-saxophone-cover.png" alt="jazz instruments">
+                        <h3>Jazz Saxophone</h3>
+                        <p>The greatest collection of your sax favorites.</p>
+                    </div>
+                </section>
+            </div>
+
+            <!--More curated button-->
+            <section id="button2">
+                <a href="#">More curated</a>
+            </section>
+        </section> <!------------------------------ END of CURATED PLAYLIST SECTION----------------------------------------------------------------->
+
+    </main>
+
+    <footer>
+        <p>Copyright 2022 Smooth Jazz</p>
+    </footer>
+
+</body>
+
+</html>
+
+END OF HTML===============================================================================
+
+CSS=======================================================================================
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+
+html {
+    background-color: #020659;
+    width:375px;
+    margin: 0 auto;
+  }
+
+body {
+    min-width:320px;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    color:#ffffff;
+    margin: 0 auto;
+}
+
+h1{
+    font-size:1.25em;
+}
+
+h2, h3 {
+    font-size: 1em;
+}
+
+p, dl, dd {
+    font-size: 1em;
+}
+    
+footer p {
+    font-size: .75em;
+}
+
+/* START of Header */
+header h1{
+    display: flex;
+    background-color: #2104d9;
+    padding-top:15px;
+    padding-bottom:15px;
+    justify-content: center;
+}
+
+#greeting{
+    background:linear-gradient(to right, #030A8c , black);
+    padding-bottom:15px;
+    
+    
+}
+#greeting h2{
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    display: flex;
+    justify-content: left;
+}
+#greeting p{
+    padding-left:15px;
+    padding-right:15px;
+}
+/* END OF HEADER */
+/* NAVIGATION BAR IN MOBILE */
+        ul {
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height .2s ease-out;
+        }
+        nav ul #title{
+            font-variant: small-caps;
+            display: flex;
+        background-color: #2104d9;
+        padding-top:15px;
+        padding-bottom:15px;
+        justify-content: center;
+
+        }
+        nav li {
+            font-variant: all-small-caps;
+            list-style: none;
+            text-decoration: none;
+        }
+        label {
+            cursor: pointer;
+            display: inline-block;
+            padding: 28px 20px;
+            position: relative;
+            user-select: none;
+        }
+        label span {
+            background-color: #ffffff;
+            display: block;
+            height: 2px;
+            position: relative;
+            transition: background-color .2s ease-out;
+            width: 18px;
+        }
+        label span:before, label span:after {
+            background: #ffffff;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            transition: all .2s ease-out;
+            width: 100%;
+        }
+
+        label span:before {
+            top: 5px;
+        }
+        label span:after {
+            top: -5px;
+        }
+        input {
+            display: none;
+        }
+        input:checked ~ ul {
+            max-height: 500px;
+        }
+        input:checked ~ label span {
+            background: transparent;
+        }
+        input:checked ~ label span:before {
+            transform: rotate(-45deg);
+        }
+        input:checked ~ label span:after {
+            transform: rotate(45deg);
+        }
+        input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+            top: 0;
+        }
+/* END OF NAVIGATION BAR MOBILE */
+
+
+/* START of Trending SONGS */
+
+    .scroll {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .scroll section {
+        margin: 10px;
+        position: relative;
+    }
+
+    /* postion abosulte and top code to display text in correct spot, padding and width are there to make the background color fit in the correct space */
+    .scroll div {
+        color:#590242;
+        position: absolute;
+        top: 251px;
+        background-color: lightgray;
+        padding: 12px;
+        width: 311px;
+    }
+
+    dl{
+        display: flex;
+    }
+    dt{
+        padding-right: 5px;
+    }
+    audio {
+        position: absolute;
+        bottom: 150px;
+        left: 5px;
+        opacity: .5;
+    }
+    #trending{
+        background-color: white;
+        padding-top: 30px;
+        padding-bottom:30px;
+    }
+
+    #trending h2{
+        color:#590242;
+        padding-left: 15px;
+        font-variant: small-caps;
+    }
+
+    #trending a{
+        background-color: #590242;
+        color: white;
+        position:relative;
+        top: 15px;
+        left: auto;
+        padding: 8px;
+        margin-left: 15px;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+/* END of TRENDING SONGS */
+
+/* START OF YOUR PLAYLISTS */
+.scroll2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom:10px;
+}   
+
+.scroll2 section {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    background-color: #2699fb;
+}
+
+.scroll2 div{
+    padding: 5px;
+    
+}
+
+.scroll2 h3{  
+    display:flex;
+    justify-content: center;
+}
+
+div p{
+    display: flex;
+    justify-content: center;
+}
+
+#playlists h2{
+    background-color: white;
+    padding-top:30px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color:#590242;
+}
+
+#playlists{
+    background-color:#0d8dfb;
+    /* padding-bottom: 40px; */
+    
+}
+
+#playlists a{
+    background-color: #590242;
+    color: white;
+    padding: 8px;
+    margin-left:15px;
+    text-decoration: none;
+        border-radius: 10px;
+
+}
+
+#button{
+    margin-top:20px;
+    padding-top:20px;
+    background-color:white;
+}
+/* END OF YOUR PLAYLISTS */
+
+
+/* START OF CURATED */
+.scroll3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+}   
+
+.scroll3 section {
+    margin: 10px;
+    position: relative;
+    background-color: #030A8C;
+}
+
+.scroll3 div{
+    padding: 5px;
+}
+
+.scroll3 h3{  
+    display:flex;
+    justify-content: center;
+}
+
+
+#curated h2{
+    color:#590242;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top:30px;
+    padding-left: 15px;
+}
+
+#curated{
+    background-color:#020873;
+
+}
+
+#curated a{
+    background-color: #590242;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#button2{
+    margin-top:20px;
+    padding-top:20px;
+    background-color:white;
+}
+
+/* END OF CURATED */
+
+/*  START OF FOOTER */
+
+footer{
+    background-color: #ffffff;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+
+/* -- END OF FOOTER */
+
+@media screen and (min-width:834px) {
+    html {
+        background-color: #020659;
+        /* width:375px; */
+        margin: 0 auto;
+      }
+   
+    ul {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    label span, input {
+        display: none;
+    }
+
+    .scroll2 {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding-bottom:10px;
+    }   
+}
+
+
+END OF CSS===========================================================================================================================
