@@ -1,37 +1,40 @@
-* {
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-  }
+/* GLOBAL STYLES */
+    * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+    }
 
-html {
-    background-color: #020659;
-    width:375px;
-    margin: 0 auto;
-  }
+    html {
+        background-color: #020659;
+        width:375px;
+        margin: 0 auto;
+    }
 
-body {
-    min-width:320px;
-    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
-    color:#ffffff;
-    margin: 0 auto;
-}
+    body {
+        min-width:320px;
+        font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+        color:#ffffff;
+        margin: 0 auto;
+    }
 
-h1{
-    font-size:1.25em;
-}
+    h1{
+        font-size:1.25em;
+    }
 
-h2, h3 {
-    font-size: 1em;
-}
+    h2, h3 {
+        font-size: 1em;
+    }
 
-p, dl, dd {
-    font-size: 1em;
-}
-    
-footer p {
-    font-size: .75em;
-}
+    p, dl, dd {
+        font-size: 1em;
+    }
+        
+    footer p {
+        font-size: .75em;
+    }
+
+/* END OF GLOBAL STYLES */
 
 /* START of Header */
 /* NAVIGATION BAR IN MOBILE */
@@ -63,123 +66,124 @@ nav ul #title{
 }
 
 /* gets rid of the underline and makes it white */
-nav a{
-    text-decoration: none;
-    color: white;
-}
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
 
-nav a:hover{
-    background-color: #590242;
-}
-nav li {
-    font-variant: all-small-caps;
-    list-style: none;
-    text-decoration: none;
-}
-label {
-    cursor: pointer;
-    display: inline-block;
-    padding: 28px 20px;
-    padding: 15px;
-    font-size: 1.5em; /* Adjust the size as needed */
-}
-label span {
-    background-color: #ffffff;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background-color .2s ease-out;
-    width: 18px;
-}
-label span:before, label span:after {
-    background: #ffffff;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-}
+    nav a:hover{
+        background-color: #590242;
+    }
+    nav li {
+        font-variant: all-small-caps;
+        list-style: none;
+        text-decoration: none;
+    }
+    label {
+        cursor: pointer;
+        display: inline-block;
+        padding: 28px 20px;
+        padding: 15px;
+        font-size: 1.5em; /* Adjust the size as needed */
+    }
+    label span {
+        background-color: #ffffff;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background-color .2s ease-out;
+        width: 18px;
+    }
+    label span:before, label span:after {
+        background: #ffffff;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
 
-label span:before {
-    top: 5px;
-}
-label span:after {
-    top: -5px;
-}
-input {
-    display: none;
-}
-input:checked ~ ul {
-    max-height: 500px;
-}
-input:checked ~ label span {
-    background: transparent;
-}
-input:checked ~ label span:before {
-    transform: rotate(-45deg);
-}
-input:checked ~ label span:after {
-    transform: rotate(45deg);
-}
-input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
-    top: 0;
-}
+    label span:before {
+        top: 5px;
+    }
+    label span:after {
+        top: -5px;
+    }
+    input {
+        display: none;
+    }
+    input:checked ~ ul {
+        max-height: 500px;
+    }
+    input:checked ~ label span {
+        background: transparent;
+    }
+    input:checked ~ label span:before {
+        transform: rotate(-45deg);
+    }
+    input:checked ~ label span:after {
+        transform: rotate(45deg);
+    }
+    input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+        top: 0;
+    }
 
-/* Hamburger menu icon */
-#menu-icon {
-    cursor: pointer;
-    display: inline-block;
+    /* Hamburger menu icon */
+    #menu-icon {
+        cursor: pointer;
+        display: inline-block;
 
-}
+    }
 
-/* Hide the input checkbox */
-input#menu-toggle {
-    display: none;
-}
+    /* Hide the input checkbox */
+    input#menu-toggle {
+        display: none;
+    }
 
-/* Style the label when the input is checked (menu is open) */
-input#menu-toggle:checked + ul {
-    max-height: 500px; /* Show the menu */
-}
+    /* when the menu is opened it will have a max height of 500px */
+    input#menu-toggle:checked + ul {
+        max-height: 500px; 
+    }
 
-/* Style the label when the input is checked (rotate the icon) */
-input#menu-toggle:checked + label#menu-icon {
-    transform: rotate(90deg); /* Adjust the rotation as needed */
-}
+    /* rotates the icon when clicked by 90 degrees */
+    input#menu-toggle:checked + label#menu-icon {
+        transform: rotate(90deg); 
+    }
 
 /* END OF NAVIGATION BAR MOBILE */
 
 
-#greeting{
-    background:linear-gradient(to right, #030A8c , black);
-    padding-bottom:15px;
-    
-    
-}
-#greeting h2{
-    padding-top:15px;
-    padding-left:30px;
-    padding-right:15px;
-    display: flex;
-    justify-content: left;
-    font-size: 1.5em;
-    font-variant: small-caps;
-}
-#greeting p{
-    padding-left:30px;
-    padding-right:30px;
-}
+    #greeting{
+        background:linear-gradient(to right, #030A8c , black);
+        padding-bottom:15px;
+        
+        
+    }
+    #greeting h2{
+        padding-top:15px;
+        padding-left:30px;
+        padding-right:15px;
+        display: flex;
+        justify-content: left;
+        font-size: 1.5em;
+        font-variant: small-caps;
+    }
+    #greeting p{
+        padding-left:30px;
+        padding-right:30px;
+    }
 /* END OF HEADER */
 
 
 /* START of Trending SONGS */
-
+    
+    /* A 5x1 grid with each grid piece being a trending song, overflow y is hidden as to only make it horizontal */
     .scroll {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         overflow-x: auto;
-        overflow-y: hidden;
+        overflow-y: hidden; 
     }
     .scroll section {
         margin: 10px;
@@ -196,10 +200,12 @@ input#menu-toggle:checked + label#menu-icon {
         width: 311px;
     }
 
+    /* trending songs */
     .scroll h3{
         font-variant: small-caps;
     }
 
+    /* Song information + Audio */
     dl{
         display: flex;
     }
@@ -226,6 +232,7 @@ input#menu-toggle:checked + label#menu-icon {
         background-color: white;
     }   
 
+    /* trending section css */
     #trending{
         background-color: white;
         padding-top: 30px;
@@ -237,7 +244,7 @@ input#menu-toggle:checked + label#menu-icon {
         padding-left: 15px;
         font-variant: small-caps;
     }
-
+    /* button */
     #trending a{
         background-color: #590242;
         color: white;
@@ -254,6 +261,7 @@ input#menu-toggle:checked + label#menu-icon {
         background-color: #2699fb;
     }
 
+    /* SCROLL BAR CSS */
     #trending ::-webkit-scrollbar {
         width: 15px;
     }
@@ -283,6 +291,9 @@ input#menu-toggle:checked + label#menu-icon {
 /* END of TRENDING SONGS */
 
 /* START OF YOUR PLAYLISTS */
+
+/* a 5x1 grid with each section being a song */
+/* Repeat of previous section with code*/
 .scroll2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -329,9 +340,7 @@ input#menu-toggle:checked + label#menu-icon {
 }
 
 #playlists{
-    background-color:#0d8dfb;
-    /* padding-bottom: 40px; */
-    
+    background-color:#0d8dfb;    
 }
 
 #playlists a{
@@ -367,7 +376,6 @@ input#menu-toggle:checked + label#menu-icon {
 
 .scroll3 section {
     margin: 10px;
-    /* position: relative; */
     background-color: #030A8C;
 }
 
@@ -440,11 +448,13 @@ footer p{
 
 @media screen and (min-width:834px) {
     
+    /* changing width for bigger screen */
     html {
         width: 834px;        
       }
 
     
+    /*updating the nav */
     nav {
         background-color: #2104d9;
         padding-left: 10px;
@@ -455,18 +465,12 @@ footer p{
         display: flex;
         align-items: center;
     }
-
+    
     nav li{
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    
-    nav #navLink{
-        /* flex-grow: 1; */
-        /* text-align: center; */
-
-    }
 
     nav #navLink a{
         font-size: 1.4em;
@@ -493,14 +497,16 @@ footer p{
         border-radius: 10px;
     }
 
+    /* New section created to contain both scroll sections */
     #bigPlaylist{
         display:flex;
     }
-
+    /* half the width of html to fit both */
     #playlists {
         width: 417px;
     }
 
+    /* reposition the button */
     #playlists a{
         background-color: #590242;
         color: white;
@@ -517,6 +523,7 @@ footer p{
         width: 417px;
     }
 
+    /* reposition of the button */
     #curated a{
         background-color: #590242;
         color: white;
@@ -532,7 +539,7 @@ footer p{
 
     .scroll2 {
         display: flex;
-        flex-direction: column; /* Change from grid to column layout */
+        flex-direction: column; 
         max-height: 600px;
         overflow-x: hidden;
         overflow-y: auto;
@@ -541,13 +548,13 @@ footer p{
     }
     
     .scroll2 section {  
-        padding: 20px; /* Add padding for spacing */
-        border-radius: 10px; /* Add rounded corners */
+        padding: 20px; 
+        border-radius: 10px; 
         text-align: center;
     }
     
     .scroll2 img {
-        max-width: 100%; /* Ensure images don't exceed the section width */
+        max-width: 100%; 
         float: left;
     }
 
@@ -561,7 +568,7 @@ footer p{
 
     .scroll3 {
         display: flex;
-        flex-direction: column; /* Display sections in a row */
+        flex-direction: column; 
         max-height: 600px;
         overflow-x: hidden;
         overflow-y: auto;
@@ -583,7 +590,7 @@ footer p{
     }
 
     .scroll3 img {
-        max-width: 100%; /* Ensure images don't exceed the section width */
+        max-width: 100%;
         height: auto;
         float:left;
     }
